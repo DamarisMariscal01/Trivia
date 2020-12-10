@@ -1,0 +1,9 @@
+h1{
+    border: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    color: #32cbf1;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-family: 'Lato', sans-serif;      
+}
