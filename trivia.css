@@ -1,9 +1,104 @@
-h1{
+/*Fuente para tipografía*/
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+/*Dar formato al título*/
+h1 {
     border: 0;
     text-align: left;
     font-weight: bold;
+    display: inline-block;
     font-size: 50px;
-    color: #32cbf1;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    font-family: 'Lato', sans-serif;      
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 4px 4px 0px blueviolet; 
+    background-color: var(--bg-color);
+    font-family: "Press Start 2P", sans-serif;
+}
+
+/*Hover con cambio de color*/
+h1:hover {
+    border: 0;
+    text-align: left;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 50px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 4px 4px 0px rgb(43, 174, 226); 
+    background-color: var(--bg-color);
+    font-family: "Press Start 2P", sans-serif;
+}
+
+/*Color en preguntas*/
+h4 {
+    border: 0;
+    text-align: left;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px blueviolet; 
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+/*Hover con cambio de color en preguntas*/
+h4:hover {
+    border: 0;
+    text-align: left;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px rgb(43, 174, 226); 
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+/*Formato al body*/
+body {
+    background-color: black;
+    color: white;
+}
+
+#pre1 {
+    display: none;
+}
+
+#pre2 {
+    display: none;
+}
+
+#pre3 {
+    display: none;
+}
+
+#pre4 {
+    display: none;
+}
+
+#pre5 {
+    display: none;
+}
+
+#pre6 {
+    display: none;
+}
+
+#pre7 {
+    display: none;
+}
+
+#pre8 {
+    display: none;
+}
+
+#pre9 {
+    display: none;
+}
+
+#pre10 {
+    display: none;
 }

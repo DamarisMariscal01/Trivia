@@ -56,3 +56,132 @@ function resultado() {
     rs=confirm("C o n t i n u a r . . .");
     if (rs==false) {document.forms[0].reset();location.reload()}
 }
+
+function mostrar1() {
+    document.getElementById("pre1").style.display="flex";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar2() {
+    document.getElementById("pre2").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar3() {
+    document.getElementById("pre3").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar4() {
+    document.getElementById("pre4").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar5() {
+    document.getElementById("pre5").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar6() {
+    document.getElementById("pre6").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar7() {
+    document.getElementById("pre7").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar8() {
+    document.getElementById("pre8").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre9").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+function mostrar9() {
+    document.getElementById("pre9").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre10").style.display="none";
+}
+
+function mostrar10() {
+    document.getElementById("pre10").style.display="flex";
+    document.getElementById("pre1").style.display="none";
+    document.getElementById("pre2").style.display="none";
+    document.getElementById("pre3").style.display="none";
+    document.getElementById("pre4").style.display="none";
+    document.getElementById("pre5").style.display="none";
+    document.getElementById("pre6").style.display="none";
+    document.getElementById("pre7").style.display="none";
+    document.getElementById("pre8").style.display="none";
+    document.getElementById("pre9").style.display="none";
+}
