@@ -29,6 +29,34 @@ h1:hover {
     font-family: "Press Start 2P", sans-serif;
 }
 
+/*Color en aciertos*/
+h2 {
+    border: 0;
+    text-align: left;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px blueviolet; 
+    background-color: var(--bg-color);
+    font-family: "Press Start 2P", sans-serif;
+}
+
+/*Hover con cambio de color en aciertos*/
+h2:hover {
+    border: 0;
+    text-align: left;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px rgb(43, 174, 226); 
+    background-color: var(--bg-color);
+    font-family: "Press Start 2P", sans-serif;
+}
+
 /*Color en preguntas*/
 h4 {
     border: 0;
@@ -54,6 +82,72 @@ h4:hover {
     color: var(--text-color);
     text-shadow: 2px 2px 0px rgb(43, 174, 226); 
     background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+/*Color en botones*/
+button {
+    border: white;
+    line-height: normal;
+    border-color: white;
+    text-align: center;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px blueviolet; 
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+/*Hover con cambio de color*/
+button:hover {
+    border: white;
+    line-height: normal;
+    border-color: white;
+    text-align: left;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px rgb(43, 174, 226); 
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+/*Color en inputs*/
+input {
+    border: white;
+    border-radius: 20px;
+    line-height: normal;
+    border-color: white;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 0px black; 
+    background-color: blueviolet;
+    font-family: sans-serif;
+}
+
+/*Hover con cambio de color*/
+input:hover {
+    border: white;
+    border-radius: 20px;
+    line-height: normal;
+    border-color: white;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 0px black; 
+    background-color: rgb(43, 174, 226);
     font-family: sans-serif;
 }
 
@@ -100,5 +194,9 @@ body {
 }
 
 #pre10 {
+    display: none;
+}
+
+#resultado {
     display: none;
 }

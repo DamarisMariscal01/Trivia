@@ -1,5 +1,29 @@
 function resultado() {
     var p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, nota;
+
+    document.getElementById("resultado").style.display="block";
+
+    document.getElementById("pre10").style.display="block";
+    document.getElementById("pre1").style.display="block";
+    document.getElementById("pre2").style.display="block";
+    document.getElementById("pre3").style.display="block";
+    document.getElementById("pre4").style.display="block";
+    document.getElementById("pre5").style.display="block";
+    document.getElementById("pre6").style.display="block";
+    document.getElementById("pre7").style.display="block";
+    document.getElementById("pre8").style.display="block";
+    document.getElementById("pre9").style.display="block";
+
+    document.getElementById("final").style.display="none";
+    document.getElementById("i1").style.display="none";
+    document.getElementById("i2").style.display="none";
+    document.getElementById("i3").style.display="none";
+    document.getElementById("i4").style.display="none";
+    document.getElementById("i5").style.display="none";
+    document.getElementById("i6").style.display="none";
+    document.getElementById("i7").style.display="none";
+    document.getElementById("i8").style.display="none";
+    document.getElementById("i9").style.display="none";
     
     /*1ª pregunta*/
     if (document.getElementById('p11').checked==true) {p1=1}
@@ -55,10 +79,11 @@ function resultado() {
     document.getElementById('resultado').innerHTML="Aciertos: "+nota;
     rs=confirm("C o n t i n u a r . . .");
     if (rs==false) {document.forms[0].reset();location.reload()}
+
 }
 
 function mostrar1() {
-    document.getElementById("pre1").style.display="flex";
+    document.getElementById("pre1").style.display="block";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
     document.getElementById("pre4").style.display="none";
@@ -68,10 +93,11 @@ function mostrar1() {
     document.getElementById("pre8").style.display="none";
     document.getElementById("pre9").style.display="none";
     document.getElementById("pre10").style.display="none";
+    document.getElementById("inicio").style.display="none";
 }
 
 function mostrar2() {
-    document.getElementById("pre2").style.display="flex";
+    document.getElementById("pre2").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre3").style.display="none";
     document.getElementById("pre4").style.display="none";
@@ -84,7 +110,7 @@ function mostrar2() {
 }
 
 function mostrar3() {
-    document.getElementById("pre3").style.display="flex";
+    document.getElementById("pre3").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre4").style.display="none";
@@ -97,7 +123,7 @@ function mostrar3() {
 }
 
 function mostrar4() {
-    document.getElementById("pre4").style.display="flex";
+    document.getElementById("pre4").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -110,7 +136,7 @@ function mostrar4() {
 }
 
 function mostrar5() {
-    document.getElementById("pre5").style.display="flex";
+    document.getElementById("pre5").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -123,7 +149,7 @@ function mostrar5() {
 }
 
 function mostrar6() {
-    document.getElementById("pre6").style.display="flex";
+    document.getElementById("pre6").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -136,7 +162,7 @@ function mostrar6() {
 }
 
 function mostrar7() {
-    document.getElementById("pre7").style.display="flex";
+    document.getElementById("pre7").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -149,7 +175,7 @@ function mostrar7() {
 }
 
 function mostrar8() {
-    document.getElementById("pre8").style.display="flex";
+    document.getElementById("pre8").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -160,8 +186,9 @@ function mostrar8() {
     document.getElementById("pre9").style.display="none";
     document.getElementById("pre10").style.display="none";
 }
+
 function mostrar9() {
-    document.getElementById("pre9").style.display="flex";
+    document.getElementById("pre9").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
@@ -174,7 +201,7 @@ function mostrar9() {
 }
 
 function mostrar10() {
-    document.getElementById("pre10").style.display="flex";
+    document.getElementById("pre10").style.display="block";
     document.getElementById("pre1").style.display="none";
     document.getElementById("pre2").style.display="none";
     document.getElementById("pre3").style.display="none";
