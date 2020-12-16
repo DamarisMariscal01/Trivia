@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>T E S T</title>
+    <link rel="stylesheet" href="trivia.css">
+    <script src="trivia.js"></script>
+    </head>
+
+    <h1>T E S T</h1>
+
+    
+    <body>
+        <hr>
+        <button id="inicio" onclick="mostrar1()">Iniciar</button>
+        <h2 id="resultado">Aciertos: 0</h2>
+
+        <form style="font:normal 16px sans-serif">
+            <div id="pre1">
+                <h4>1. ¿Cuándo comenzó la Segunda Guerra Mundial?</h4>
+                <p class="pregunta1"><input type="radio" name="pregunta1" id="p11"> 1939 </p>
+                <p class="pregunta1"><input type="radio" name="pregunta1" id="p12"> 1910 </p>
+                <p class="pregunta1"><input type="radio" name="pregunta1" id="p13"> 1492 </p>
+                <p class="pregunta1"><input type="radio" name="pregunta1" id="p14"> 1945 </p>
+                <input type="button" value="Siguiente" id="i1" onclick="mostrar2()">
+            </div>
+        
+            <div id="pre2">
+                <h4>2. ¿Cuáles son los cinco tipos de sabores primarios?</h4>
+                <p class="pregunta2"><input type="radio" name="pregunta2" id="p21"> Dulce, amargo, agrio, salado y picante</p>
+                <p class="pregunta2"><input type="radio" name="pregunta2" id="p22"> Dulce, amargo, ácido, salado y umami.</p>
+                <p class="pregunta2"><input type="radio" name="pregunta2" id="p23"> Rico, asqueroso, ácido, dulce y salado</p>
+                <p class="pregunta2"><input type="radio" name="pregunta2" id="p24"> Umami, rico, agrio, amargo y picante</p>
+                <input type="button" value="Siguiente" id="i2" onclick="mostrar3()">
+            </div>
+            
+            <div id="pre3">
+                <h4>3. ¿Quién pintó “la última cena”?</h4>
+                <p class="pregunta3"><input type="radio" name="pregunta3" id="p31"> Leonardo DiCaprio</p>
+                <p class="pregunta3"><input type="radio" name="pregunta3" id="p32"> Jesús </p>
+                <p class="pregunta3"><input type="radio" name="pregunta3" id="p33"> Leonardo Da Vinci </p>
+                <p class="pregunta3"><input type="radio" name="pregunta3" id="p34"> Johnny Deep </p>
+                <input type="button" value="Siguiente" id="i3" onclick="mostrar4()">
+            </div>
+
+            <div id="pre4">
+                <h4>4. ¿Qué son los humanos: omnívoros, herbívoros o carnívoros?</h4>
+                <p class="pregunta4"><input type="radio" name="pregunta4" id="p41"> Ni idea </p>
+                <p class="pregunta4"><input type="radio" name="pregunta4" id="p42"> Hervíboros </p>
+                <p class="pregunta4"><input type="radio" name="pregunta4" id="p43"> Carnívoros </p>
+                <p class="pregunta4"><input type="radio" name="pregunta4" id="p44"> Omnívoros </p>
+                <input type="button" value="Siguiente" id="i4" onclick="mostrar5()">
+            </div>
+            
+            <div id="pre5">
+                <h4>5. ¿Cómo se denomina el resultado de la multiplicación?</h4>
+                <p class="pregunta5"><input type="radio" name="pregunta5" id="p51"> Recíproco </p>
+                <p class="pregunta5"><input type="radio" name="pregunta5" id="p52"> Producto </p>
+                <p class="pregunta5"><input type="radio" name="pregunta5" id="p53"> No tiene nombre </p>
+                <p class="pregunta5"><input type="radio" name="pregunta5" id="p54"> Multiplicado </p>
+                <input type="button" value="Siguiente" id="i5" onclick="mostrar6()">
+            </div>
+
+            <div id="pre6">
+                <h4>6. ¿Cuál es el disco más vendido de la historia?</h4>
+                <p class="pregunta6"><input type="radio" name="pregunta6" id="p61"> Thriller - Michael Jackson </p>
+                <p class="pregunta6"><input type="radio" name="pregunta6" id="p62"> Amor Prohibido - Selena Quintanilla</p>
+                <p class="pregunta6"><input type="radio" name="pregunta6" id="p63"> YHLQMDLG - Bad Bunny </p>
+                <p class="pregunta6"><input type="radio" name="pregunta6" id="p64"> México en la piel - Luis Miguel</p>
+                <input type="button" value="Siguiente" id="i6" onclick="mostrar7()">
+
+            </div>
+            
+            <div id="pre7">
+                <h4>7. ¿Cuál es el lugar más frío de la tierra?</h4>
+                <p class="pregunta7"><input type="radio" name="pregunta7" id="p71"> Antártida </p>
+                <p class="pregunta7"><input type="radio" name="pregunta7" id="p72"> Desierto </p>
+                <p class="pregunta7"><input type="radio" name="pregunta7" id="p73"> Canadá </p>
+                <p class="pregunta7"><input type="radio" name="pregunta7" id="p74"> La Playa </p>
+                <input type="button" value="Siguiente" id="i7" onclick="mostrar8()">
+            </div>
+        
+            <div id="pre8">
+                <h4>8. ¿Cuál es el río más largo del mundo?</h4>
+                <p class="pregunta8"><input type="radio" name="pregunta8" id="p81"> Río Nilo </p>
+                <p class="pregunta8"><input type="radio" name="pregunta8" id="p82"> Río amarillo </p>
+                <p class="pregunta8"><input type="radio" name="pregunta8" id="p83"> Amazonas </p>
+                <p class="pregunta8"><input type="radio" name="pregunta8" id="p84"> Río Misisipi </p>
+                <input type="button" value="Siguiente" id="i8" onclick="mostrar9()">
+            </div>
+            
+            <div id="pre9">
+                <h4>9. ¿Quién fue el primer presidente de los Estados Unidos? </h4>
+                <p class="pregunta9"><input type="radio" name="pregunta9" id="p91"> Donald Trump </p>
+                <p class="pregunta9"><input type="radio" name="pregunta9" id="p92"> Barack Obama </p>
+                <p class="pregunta9"><input type="radio" name="pregunta9" id="p93"> Peña Nieto </p>
+                <p class="pregunta9"><input type="radio" name="pregunta9" id="p94"> George Washington  </p>
+                <input type="button" value="Siguiente" id="i9" onclick="mostrar10()">
+            </div>
+            
+            <div id="pre10">
+                <h4>10. ¿Cuál es el océano más grande del mundo?</h4>
+                <p class="pregunta10"><input type="radio" name="pregunta10" id="p101"> Atlántico </p>
+                <p class="pregunta10"><input type="radio" name="pregunta10" id="p102"> Pacífico </p>
+                <p class="pregunta10"><input type="radio" name="pregunta10" id="p103"> Ártico</p>
+                <p class="pregunta10"><input type="radio" name="pregunta10" id="p104"> Todos son iguales</p>
+                <input type="button" value=" R E S U L T A D O " id="final" onclick="resultado()"/>
+            </div>
+
+        <hr>
+        <p></p>
+        </form>
+    </body>
+</html>
